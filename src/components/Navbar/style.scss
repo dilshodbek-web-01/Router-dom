@@ -1,0 +1,34 @@
+header {
+    width: 100%;
+    background-color: green;
+
+    .nav {
+        height: 77px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: green;
+
+        &-logo {
+            color: #ffffff;
+        }
+
+        &__list {
+            text-transform: uppercase;
+            padding-top: 15px;
+
+            &--item {
+                list-style-type: none;
+
+                a{
+                    text-decoration: none;
+                    color: lime;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}
