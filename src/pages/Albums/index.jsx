@@ -28,7 +28,7 @@ const index = () => {
 
     return (
         <>
-            <div className="about">
+            <div className="albums">
                 <h1 className='text-white text-center'>Albums</h1>
                 <div className="card w-75 mx-auto overflow-scroll">
                     <ul className="list-group">

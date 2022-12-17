@@ -9,7 +9,7 @@ const index = () => {
                 <div className="container">
                     <nav className="nav">
                         <h2 className="nav-logo">Reactjs.uz</h2>
-                        <ul className="nav__list d-flex w-50 align-items-center justify-content-between">
+                        <ul className="nav__list d-flex w-75 align-items-center justify-content-between">
                             <li className="nav__list--item">
                                 <NavLink className={({isActive})=> isActive ? "text-white" : ""} to="/" >
                                     Home
@@ -23,6 +23,16 @@ const index = () => {
                             <li className="nav__list--item">
                                 <NavLink className={({isActive})=> isActive ? "text-white" : ""} to="/albums" >
                                     Albums
+                                </NavLink>
+                            </li>
+                            <li className="nav__list--item">
+                                <NavLink className={({isActive})=> isActive ? "text-white" : ""} to="/photos" >
+                                    Photos
+                                </NavLink>
+                            </li>
+                            <li className="nav__list--item">
+                                <NavLink className={({isActive})=> isActive ? "text-white" : ""} to="/comments" >
+                                    Comments
                                 </NavLink>
                             </li>
                         </ul>
